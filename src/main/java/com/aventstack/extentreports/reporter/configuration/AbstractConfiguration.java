@@ -18,5 +18,7 @@ public abstract class AbstractConfiguration {
     @Builder.Default
     private String timeStampFormat = "MMM d, yyyy hh:mm:ss a";
     @Builder.Default
+    private String timeFormat = "hh:mm:ss a";
+    @Builder.Default
     private String reportName = "";
 }

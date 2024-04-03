@@ -8,6 +8,7 @@
   "documentTitle": "ExtentReports",
   "reportName": "ExtentReports",
   "timeStampFormat": "MMM dd, yyyy HH:mm:ss a",
+  "timeFormat": "hh:mm:ss a",
   "js": "",
   "css": ""
 }

@@ -2,6 +2,7 @@
   config=this.config()
   theme=""
   timeStampFormat=config.timeStampFormat
+  timeFormat=config.timeFormat
   offline=false
   reportType=""
   parentHeading="Tests"

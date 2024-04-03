@@ -34,6 +34,8 @@
     <!-- timestamp format -->
     <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
 
+    <!-- time format -->
+    <timeFormat> hh:mm:ss a</timeFormat>
     <!-- custom javascript -->
     <scripts>
       <![CDATA[
