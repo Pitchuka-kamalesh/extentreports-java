@@ -6,7 +6,7 @@
       <tr class="event-row">
         <td><span class="badge log ${log.status.toLower()}-bg">${log.status?string}</span></td>
         <td>${log.timestamp?time?string["${timeFormat}"]}</td>
-        <td>clear
+        <td>
           <#if log.exception??><textarea readonly class="code-block">${log.exception.stackTrace}</textarea>
           <#else>${log.details}</#if>
           <#if log.media??><@mediaSingle log.media /></#if>
